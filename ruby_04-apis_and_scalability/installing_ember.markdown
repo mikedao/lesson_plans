@@ -26,7 +26,7 @@ Alright, cool. Now, listen carefully—we're going to use a different command fr
 Because life is hard, we're going to use a package manager called `npm` to install a different package manager called `bower`. Very few people think this is okay, but it's the way the world works at this moment in time.
 
 ```bash
-npm install -g bower
+sudo npm install -g bower
 ```
 
 If you forget the `-g` flag, things are not going to work for you. Why don't you hit the up array right now and make sure you included the `-g`. Got it? Cool.
@@ -34,7 +34,7 @@ If you forget the `-g` flag, things are not going to work for you. Why don't you
 Okay, we need one more global command. I'm going to let you guess what it installs.
 
 ```bash
-npm install -g ember-cli
+sudo npm install -g ember-cli
 ```
 
 Ember CLI is a collection of tools to make working on Ember projects easier. It's a lot like the `rails` command. It's not Ember per se, but it will let you create a new Ember project.
